@@ -1,12 +1,9 @@
 import os
 import cmd
 
-y = 0
-
 #function
-# def Function(x):
-#    print(x) 
-#    y += 1
+def Function(x):
+   print(x)
 
 #print
 print('Hello world')
@@ -23,6 +20,8 @@ while True:
 #if statement
 if b > a:
     print('Number 2 is greater than number 1\n' + '2 has a value of: ' + str(b) + '\n' + '1 has a value of: ' + str(a))
+elif a == b:
+    print('The numbers are equal')
 else:
     print('Number 1 is greater than number 2\n' + '1 has a value of: ' + str(a) + '\n' + '2 has a value of: ' + str(b))
 
@@ -32,7 +31,4 @@ for x in "Hello":
 
 #list
 
-# Function("test")
-
-# while(y > 0):
-#    print(y)
+Function("test")
