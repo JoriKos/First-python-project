@@ -30,5 +30,21 @@ for x in "Hello":
     print(x)
 
 #list
+testlist = ["test", 1, "help", 24, False]
+testlist2 = [1, 2, 3, 4]
 
+#function
 Function("test")
+
+i = 0
+
+#while loop, list printing
+while i < len(testlist2):
+    print(testlist2[i])
+    i += 1
+
+i = 0
+
+while i < len(testlist):
+    print(testlist[i])
+    i += 1
